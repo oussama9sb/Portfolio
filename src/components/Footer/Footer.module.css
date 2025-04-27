@@ -1,0 +1,108 @@
+.container {
+  color: white;
+  background-color: black;
+  padding: var(--page-padding);
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  border-top: 0.3px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.header {
+  margin: 0;
+  padding-bottom: 0.7rem;
+  font-family: var(--heading-font);
+  font-weight: var(--heading-weight);
+  font-size: 5rem;
+  letter-spacing: var(--letter-spacing);
+}
+
+.btnContainer {
+  height: 8rem;
+  width: 30rem;
+  padding-bottom: 1rem;
+}
+
+.github,
+.facebook,
+.gmail {
+  fill: white;
+}
+
+.github:hover,
+.facebook:hover,
+.gmail:hover {
+  fill: #d1d5db;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.clause {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  font-family: var(--body-font);
+  color: #9ca3af;
+}
+
+@media only screen and (max-width: 567px) {
+  .header {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 0;
+  }
+  .btnContainer {
+    height: 5rem;
+    width: 15rem;
+    padding-bottom: 0.5rem;
+  }
+  .github,
+  .facebook,
+  .gmail {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .clause {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+  .header {
+    font-size: 3.7rem;
+    text-align: center;
+    padding-bottom: 0;
+  }
+  .btnContainer {
+    width: 19rem;
+    padding-bottom: 0.3rem;
+  }
+  .github,
+  .facebook,
+  .gmail {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+}

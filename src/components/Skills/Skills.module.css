@@ -1,0 +1,112 @@
+.container {
+  color: white;
+  background-color: black;
+  padding: var(--page-padding);
+  padding-bottom: 5rem;
+  overflow: hidden;
+}
+
+.border {
+  border-top: 0.3px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.secondContainer {
+  overflow: hidden;
+  padding-bottom: 5rem;
+}
+
+.logoContainer {
+  display: flex;
+  gap: 1.7rem;
+  padding-bottom: 2rem;
+}
+
+.header {
+  margin: 0;
+  padding-bottom: 13rem;
+  font-family: var(--heading-font);
+  font-weight: var(--heading-weight);
+  font-size: var(--heading-size);
+  letter-spacing: var(--letter-spacing);
+}
+@media only screen and (min-width: 360px) and (max-width: 450px) {
+  .container {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .header {
+    font-size: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .secondContainer {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 567px) {
+  .container {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .header {
+    font-size: 2.3rem;
+    padding-bottom: 4rem;
+  }
+
+  .secondContainer {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+  .container {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .header {
+    font-size: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .secondContainer {
+    padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .header {
+    font-size: 3rem;
+    padding-bottom: 6rem;
+  }
+
+  .secondContainer {
+    padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1258px) {
+  .container {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .header {
+    font-size: 3.5rem;
+    padding-bottom: 6.5rem;
+  }
+
+  .secondContainer {
+    padding-bottom: 3.5rem;
+  }
+}

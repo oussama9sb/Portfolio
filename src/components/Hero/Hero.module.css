@@ -1,0 +1,29 @@
+.container {
+  height: 100vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  /* background: linear-gradient(-45deg, #d1d5db, #6b7280, #374151, #111827); */
+  /* background: linear-gradient(-45deg, #374151, #1f2937, #111827, #030712); */
+  background-size: 400% 400%;
+  padding: var(--page-padding);
+  animation: gradient 10s ease infinite;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  /* padding: var(--page-padding); */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

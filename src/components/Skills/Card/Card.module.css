@@ -1,0 +1,99 @@
+.container {
+  border: 1px solid white;
+  position: relative;
+  padding: 0.9rem 0.7rem;
+  border-radius: 0.3rem;
+  --webkit-box-shadow: 0px 0px 17px 4px rgba(255, 255, 255, 0.1);
+  --moz-box-shadow: 0px 0px 17px 4px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 17px 4px rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow {
+  position: absolute;
+  background-color: black;
+  pointer-events: none;
+  opacity: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  background-color: white;
+  color: black;
+  font-family: var(--heading-font);
+  font-weight: 400;
+  z-index: 10;
+  padding: 0.3rem 0.8rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.header:hover {
+  opacity: 75%;
+}
+
+.img {
+  fill: black;
+  height: 11rem;
+  width: 11rem;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 450px) {
+  .header {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+  }
+  .img {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 568px) {
+  .header {
+    font-size: 1rem;
+    padding: 0.2rem 0.7rem;
+  }
+  .img {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+
+@media only screen and (min-width: 569px) and (max-width: 768px) {
+  .header {
+    font-size: 1.1rem;
+  }
+  .img {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .img {
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1258px) {
+  .img {
+    height: 8.3rem;
+    width: 8.3rem;
+  }
+}

@@ -1,0 +1,86 @@
+.col1 {
+  border: 1px solid white;
+  position: relative;
+  border-radius: 0.3rem;
+  --webkit-box-shadow: 0px 0px 17px 4px rgba(255, 255, 255, 0.1);
+  --moz-box-shadow: 0px 0px 17px 4px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 17px 4px rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow {
+  position: absolute;
+  background-color: black;
+  pointer-events: none;
+  opacity: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.secondHeader {
+  background-color: white;
+  color: black;
+  font-family: var(--heading-font);
+  font-weight: 400;
+  z-index: 10;
+  padding: 0.3rem 0.8rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-out;
+}
+
+.arrow {
+  margin-left: 5px;
+  margin-bottom: 1rem;
+  transform: rotate(180deg);
+}
+
+.secondHeader:hover {
+  opacity: 75%;
+}
+
+.overlay > .secondHeader .arrow {
+  height: 1rem;
+  width: 1.2rem;
+  rotate: 180deg;
+  padding-top: 0.7rem;
+  padding-right: 0.1rem;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 568px) {
+  .secondHeader {
+    font-size: 1rem;
+  }
+
+  .proContainer {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+  .proContainer {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+  }
+}

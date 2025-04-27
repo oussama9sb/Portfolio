@@ -1,0 +1,34 @@
+.canvas {
+  display: flex;
+  background-color: black;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 1024px) {
+  .canvas {
+    height: 70vh;
+  }
+}
+
+/* @media only screen and (min-width: 786px) and (max-width: 860px) { */
+/*   .canvas { */
+/*     height: 75vh; */
+/*   } */
+/* } */
+/**/
+/* @media only screen and (min-width: 860px) and (max-width: 963px) { */
+/*   .canvas { */
+/*     height: 75vh; */
+/*   } */
+/* } */
+/**/
+/* @media only screen and (min-width: 963px) and (max-width: 1024px) { */
+/*   .canvas { */
+/*     height: 75vh; */
+/*   } */
+/* } */
+
+@media only screen and (min-width: 1025px) and (max-width: 1258px) {
+  .canvas {
+    height: 90vh;
+  }
+}

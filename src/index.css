@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+  --text-dark: #000;
+  --text-light: #fff;
+  --text-light-dark: #1f2937;
+  --text-gray: #abddcc;
+  --light-dark: rgba(0, 0, 0, 0.2);
+  --body-font: "Roboto", sans-serif;
+  --heading-font: "Anek Telugu", sans-serif;
+  --btn-hover-color: #6d7a88;
+  --button-size: 16px;
+  --page-padding: 2rem 1.5rem 0 1.5rem;
+  --word-spacing: 4px;
+  --letter-sapcing: 1.5px;
+  --heading-weight: 600;
+  --heading-size: 4rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

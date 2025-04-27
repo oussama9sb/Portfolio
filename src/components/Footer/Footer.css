@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hiddenFooter {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-4%);
+  transition: all 0.7s ease-in-out;
+}
+
+.showFooter {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
