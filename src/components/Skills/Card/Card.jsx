@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import styles from "./Card.module.css";
 
 const Card = ({ logo }) => {
-  const [showOverlay, setShowOverlay] = useState(true);
+  const [showOverlay, setShowOverlay] = useState(false);
 
   return (
     <motion.div
@@ -12,7 +12,7 @@ const Card = ({ logo }) => {
       onHoverEnd={() => setShowOverlay(false)}
     >
       <AnimatePresence>
-        {showOverlay.show && (
+        {showOverlay && (
           <motion.div
             className={styles.overlay}
             initial={{ opacity: 0 }}

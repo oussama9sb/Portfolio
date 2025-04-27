@@ -65,7 +65,7 @@
   padding-right: 0.1rem;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 568px) {
+@media only screen and (min-width: 0px) and (max-width: 568px) {
   .secondHeader {
     font-size: 1rem;
   }

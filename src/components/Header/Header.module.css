@@ -1,10 +1,3 @@
-/* .wrapper { */
-/*   display: flex; */
-/*   justify-content: center; */
-/*   align-items: center; */
-/*   background-color: red; */
-/* } */
-
 .container {
   width: 50rem;
   margin: 0 auto;
@@ -15,9 +8,6 @@
   padding: 2rem 9rem 1.5rem 9rem;
   border-radius: 0.5rem;
   z-index: 100;
-  /* position: absolute; */
-  /* left: 13rem; */
-  /* top: 2rem; */
 }
 .header {
   margin: 0;
@@ -45,11 +35,11 @@
   filter: drop-shadow(1px 2px 5px rgba(0, 0, 0, 0.3));
 }
 
-@media only screen and (min-width: 360px) and (max-width: 395px) {
+@media only screen and (min-width: 0px) and (max-width: 395px) {
   .container {
     width: 15rem;
     padding: 3rem 0.7rem 2.5rem 2rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
     border-radius: 4px;
     color: black;
     left: 3rem;
@@ -74,7 +64,7 @@
   .container {
     width: 15rem;
     padding: 3rem 0.7rem 2.5rem 2rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
     border-radius: 4px;
     color: black;
     left: 4rem;
@@ -99,7 +89,7 @@
   .container {
     width: 18rem;
     padding: 3rem 1rem 2.5rem 2.3rem;
-    margin-top: 4rem;
+    margin-top: 7rem;
     border-radius: 4px;
     left: 4rem;
   }
@@ -122,7 +112,7 @@
   .container {
     width: 18rem;
     padding: 3rem 1rem 2.5rem 2.3rem;
-    margin-top: 4rem;
+    margin-top: 7rem;
     border-radius: 4px;
     left: 6rem;
   }
@@ -145,7 +135,7 @@
   .container {
     width: 23rem;
     padding: 3rem 1rem 2.5rem 2.3rem;
-    margin-top: 4rem;
+    margin-top: 7rem;
     border-radius: 4px;
     left: 4rem;
   }
@@ -168,24 +158,10 @@
   .container {
     width: 23rem;
     padding: 3rem 1rem 2.5rem 2.3rem;
-    margin-top: 4rem;
+    margin-top: 7rem;
     border-radius: 4px;
     left: 8rem;
   }
-
-  /* .header { */
-  /*   font-size: 2.4rem; */
-  /*   line-height: 1; */
-  /*   padding-bottom: 0.4rem; */
-  /* } */
-  /**/
-  /* .header span { */
-  /*   font-size: 2rem; */
-  /* } */
-  /**/
-  /* .paragraph { */
-  /*   font-size: 1.1rem; */
-  /* } */
 
   .header {
     font-size: 3.4rem;
@@ -206,7 +182,7 @@
   .container {
     width: 28rem;
     padding: 3rem 1.4rem 2.5rem 2.3rem;
-    margin-top: 4rem;
+    margin-top: 7rem;
     border-radius: 6px;
     left: 10rem;
   }
@@ -230,9 +206,8 @@
   .container {
     width: 28rem;
     padding: 3rem 2.4rem 2.5rem 2.3rem;
-    margin-top: 4rem;
+    margin-top: 7rem;
     border-radius: 6px;
-    /* position: absolute; */
     left: 10rem;
   }
 
@@ -255,9 +230,8 @@
   .container {
     width: 38rem;
     padding: 3rem 2.4rem 2.5rem 2.3rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
     border-radius: 6px;
-    /* position: absolute; */
     left: 10rem;
   }
 
@@ -280,9 +254,8 @@
   .container {
     width: 48rem;
     padding: 3rem 2.4rem 2.8rem 2.7rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
     border-radius: 8px;
-    /* position: absolute; */
     left: 8rem;
   }
 
