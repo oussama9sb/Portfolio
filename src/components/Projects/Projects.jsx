@@ -14,18 +14,22 @@ const images = [
   {
     image: Portfolio,
     name: "Explore Site 1",
+    url: "/",
   },
   {
     image: CimaLounge,
     name: "Explore Site 2",
+    url: "https://cima-lounge.vercel.app/",
   },
   {
     image: Bloggers,
     name: "Explore Site 3",
+    url: "https://blogging-lounge.vercel.app/",
   },
   {
     image: ShoppingLounge,
     name: "Explore Site 4",
+    url: "https://shopping-lounge.vercel.app/",
   },
 ];
 

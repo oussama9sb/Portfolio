@@ -15,7 +15,7 @@ const ProjectContainer = ({ imageObject }) => {
     observerProjects.observe(element.current);
   }, []);
 
-  const { image, name } = imageObject;
+  const { image, name, url } = imageObject;
 
   return (
     <div className={styles.proContainer}>
@@ -27,23 +27,25 @@ const ProjectContainer = ({ imageObject }) => {
       >
         <AnimatePresence>
           {showOverlay && (
-            <motion.div
-              className={styles.overlay}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-            >
-              <div className={styles.shadow} />
-              <motion.h3
-                className={styles.secondHeader}
-                initial={{ y: 10 }}
-                animate={{ y: 0 }}
-                exit={{ y: 10 }}
+            <a target="_blank" href={url}>
+              <motion.div
+                className={styles.overlay}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
               >
-                {name}
-                <MdArrowOutward className={styles.arrow} />
-              </motion.h3>
-            </motion.div>
+                <div className={styles.shadow} />
+                <motion.h3
+                  className={styles.secondHeader}
+                  initial={{ y: 10 }}
+                  animate={{ y: 0 }}
+                  exit={{ y: 10 }}
+                >
+                  {name}
+                  <MdArrowOutward className={styles.arrow} />
+                </motion.h3>
+              </motion.div>
+            </a>
           )}
         </AnimatePresence>
         <img
